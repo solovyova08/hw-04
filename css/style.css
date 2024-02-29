@@ -44,6 +44,11 @@ img {
   height: auto;
 }
 
+button, input {
+font-family: inherit;
+color: currentColor;
+}
+
 /* ===== HEADER ===== */
 
 .header {
@@ -173,6 +178,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: 0 auto;
 }
 
 .hero-header {
